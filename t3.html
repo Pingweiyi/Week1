@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<section id ="APP">
+   <h1>{title}</h1>
+   <div v-for="todo">
+   
+
+	     <input class="check-list"
+		 type="checkbos"
+		 v-on: change="toggleItem(todo)"
+		 v-bind:checked="todo.cherk"
+		 
+		        
+	    <del class="gray" v-if="todo.check">
+		       {todo.text}
+	    </del>
+	     <span v-else>
+		  {todo.text}
+         </span>
+ </div>
+</section>

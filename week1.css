@@ -1,0 +1,43 @@
+#lol{
+	  background-image: url(lol.jpg);
+	  background-size: 500px 300px;
+	  background-repeat: no-repeat, repeat;
+	  color: aqua;
+	  font-size: 20px;
+	  padding: 50px;
+}
+
+
+
+h3 { 
+	 	
+	font-size: 70px;
+	border-bottom: 1px solid violet; 
+	text-align: center;
+}
+
+
+
+
+
+h1{
+	
+	font-size: 35px;
+	color:blue;
+}
+
+
+
+h2{
+	font-size:25px;
+	color:crimson;
+}
+
+a:link{
+	color:mediumorchid;
+	background-color: #00FFFF;
+	padding:12px 20px;
+}
+li{
+	font-size: 20px;
+}
